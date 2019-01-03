@@ -9,15 +9,15 @@ to get started.
 
 1. Create a client object. You must specify the URL of the Pastebin server. In almost all
 cases, this will be 'https://pastebin.com/'. In some cases, you might want to point to an
-alias, mirror site or proxy.
+alias, mirror site or proxy. 
 
-```myclient = client('https://pastebin.com')```
+  ```myclient = client('https://pastebin.com')```
 
 2. Authorise the client with the server. The client needs some session cookies to upload
 and download pastes from Pastebin. The `auth` method will return `True` or `False`
-depending on whether the cookies were obtained or not.
+depending on whether the cookies were obtained or not. 
 
-```myclient.auth()```
+  ```myclient.auth()```
 
 3. When the client has been authorised, you can choose what to do next. For instance, you
 may like to upload a new paste.
