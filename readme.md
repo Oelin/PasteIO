@@ -39,7 +39,7 @@ myclient.upload('Hello', 'Hello, World! This is my new paste.')
 
 This uploads a new paste to Pastebin. If the upload was successfull, it will return the
 "paste id" for the paste. Paste ids are unique identifiers assigned by Pastebin, to each
-upload. To view your paste, you can open https://pastebin.com/`your paste id`, in a web
+upload. To view your paste, you can open https://pastebin.com/ `your paste id`, in a web
 browser.
 
 ```client.download(id)```
