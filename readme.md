@@ -3,7 +3,7 @@
 PasteIO is a simple API for using Pastebin as an anonymous guest. Follow the steps below
 to get started.
 
-
+---
 
 ### Getting Started
 
@@ -20,7 +20,7 @@ depending on whether the cookies were obtained or not. ```myclient.auth()```
 4. When the client has been authorised, you can choose what to do next. For instance, you
 may like to upload a new paste.
 
-
+---
 
 ### Methods
 
@@ -39,7 +39,7 @@ paste id. The text content will be returned as a string.
 
 **New methods and functionality coming soon.**
 
-
+---
 
 ### Requirements
 
