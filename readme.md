@@ -26,7 +26,7 @@ may like to upload a new paste.
 
 This uploads a new paste to Pastebin. If the upload was successfull, it will return the
 "paste id" for the paste. Paste ids are unique identifiers assigned by Pastebin, to each
-upload. For instance, https://pastebin.com/raw/2gHHDtZT, where 2gHHDtZT is the id.
+upload. For instance, https://pastebin.com/raw/5MPfd19P, where 5MPfd19P is the id.
 
 ```client.download(id)```
 
