@@ -30,7 +30,6 @@ myclient.auth()
 myclient.upload('Hello', 'Hello, World! This is my new paste.')
 ```
 
-
 ---
 
 ### Methods
@@ -46,9 +45,16 @@ upload. To view your paste, open https://pastebin.com/ `your paste id`, in a web
 Use this method to download the text content of an existing paste. You must specify it's
 paste id. The text content will be returned as a string.
 
-
-
 **New methods and functionality coming soon.**
+
+---
+
+### Notes
+
+One thing to note is that Pastebin only allows ten uploads per twentyfour hours for guest
+users. After ten uploads, your IP will be blacklisted until the following day. There are
+various ways to get around this (i.e Tor), but the API does not currently provide any 
+such functions.
 
 ---
 
