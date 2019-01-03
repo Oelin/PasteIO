@@ -38,3 +38,9 @@ paste id. The text content will be returned as a string.
 
 
 **New methods and functionality coming soon.**
+
+
+
+### Requirements
+
+The requests library for Python3.
