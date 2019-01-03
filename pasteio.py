@@ -75,7 +75,7 @@ class client:
 
 
 # Generate multipart form feilds required to upload new pastes to Pastebin. The form is
-# created dynamically, given the paste's title and text content.
+# created dynamically, given the paste's name and text content.
 
 def makeform(name, text):
     form = {
