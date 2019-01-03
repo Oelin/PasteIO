@@ -10,7 +10,7 @@ to get started.
 1. **Import the Pastebin client.**
 
 2. **Create a client object.** You must specify the URL of the Pastebin server. In almost all
-cases, this will be 'https://pastebin.com/'. In some cases, you might want to point to an
+cases, this will be `'https://pastebin.com/'`. In some cases, you might want to point to an
 alias, mirror site or proxy.
 
 3. **Authorise the client with Pastebin**. The client needs some session cookies to upload
@@ -20,7 +20,7 @@ depending on whether the cookies were obtained or not.
 4. When the client has been authorised, you can choose what to do next. For instance, you
 may like to upload a new paste via the ```upload``` method.
 
-`
+```python
 from pasteio import client
 
 myclient = client('https://pastebin.com/')
@@ -28,6 +28,8 @@ myclient = client('https://pastebin.com/')
 myclient.auth()
 
 myclient.upload('Hello', 'Hello, World! This is my new paste')
+```
+
 
 ---
 
