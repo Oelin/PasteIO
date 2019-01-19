@@ -52,8 +52,8 @@ class client:
 
         # Upload the paste by posting the form data to '/post.php'.
 
-        to = self.source + '/post.php'
-        self.session.post(to, **form)
+        path = self.source + '/post.php'
+        self.session.post(path, **form)
 
         # Extract the cookie which holds the paste id and return it's value.
 
@@ -65,9 +65,9 @@ class client:
     # Download a the content of a paste from Pastebin.
 
     def download(self, id):
-        _from = self.source + '/raw/' + id
+        path = self.source + '/raw/' + id
       
-        response = self.session.get(_from)
+        response = self.session.get(path)
         text = response.text
 
         return text
