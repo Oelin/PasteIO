@@ -4,11 +4,10 @@ An unofficial API for pastebin.
 
 ```python
 
-from pyste import user
+from paster import copy, paste
 
-user = user()
-user.auth()
+paste('hello', 'hello world!') # upload a new paste and return its id
 
-user.paste('hello', 'hello world!') # returns the id of your paste
+copy('xS58DXjQ') # download the paste with id xS58DXjQ.```
 
   
