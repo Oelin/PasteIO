@@ -6,10 +6,9 @@ An unofficial API for pastebin.
 
 from paster import copy, paste
 
-# download the paste with id xS58DXjQ
-copy('xS58DXjQ')
+copy('xS58DXjQ') # download the paste with id xS58DXjQ.
 
-# upload a new paste and return its id.
-paste('hello', 'hello world!')```
+paste('hello', 'hello world!') # upload a new paste and return its id.
+```
 
   
